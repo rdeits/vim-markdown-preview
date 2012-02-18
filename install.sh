@@ -6,7 +6,3 @@ if [ -e $HOME/.vim/plugin/MKD.vim ]; then
   echo "DONE.."
 fi
 
-echo "Copying plugin/* to $HOME/.vim/plugin ... "
-cp -R plugin/* $HOME/.vim/plugin
-echo "DONE.."
-
